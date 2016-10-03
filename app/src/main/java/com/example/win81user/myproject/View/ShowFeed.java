@@ -34,7 +34,7 @@ public class ShowFeed extends Activity implements Callback<ItemModel> {
     private RecyclerView recyclerView;
     DataAdapter dataAdapter;
     //http://192.168.25.2:8181/weerawat/
-    String API = "http://192.168.25.2:8181/weerawat/";
+    String API = "http://api.androidhive.info/feed/";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

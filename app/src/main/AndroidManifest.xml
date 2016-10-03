@@ -21,10 +21,6 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".View.ShowFeed" />
-        <activity
-            android:name=".MenuDrawerActivity"
-            android:label="Menu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -15,7 +15,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_drawer);
+        setContentView(R.layout.select_menu);
 
         prepareview();
 

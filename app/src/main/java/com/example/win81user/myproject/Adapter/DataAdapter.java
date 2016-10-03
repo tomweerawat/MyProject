@@ -66,7 +66,7 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.Viewholder>{
         public Viewholder(View itemView) {
             super(itemView);
 
-            status_text = (TextView)itemView.findViewById(R.id.status_text);
+            //status_text = (TextView)itemView.findViewById(R.id.status_text);
             txtStatusMsg = (TextView)itemView.findViewById(R.id.txtStatusMsg);
             txtUrl = (TextView)itemView.findViewById(R.id.txtUrl);
             tvData = (TextView)itemView.findViewById(R.id.tvData);
